@@ -3,6 +3,7 @@ const shareButtonDark = document.getElementById("share-button-dark");
 const authorInfo = document.getElementById("author-container");
 const socialMedia = document.getElementById("social-media");
 const iconShare = document.getElementById("icon-share-img");
+const triangle = document.getElementById("triangle-down");
 const width = window.innerWidth;
 
 
@@ -17,6 +18,7 @@ shareButton.addEventListener("click", (e) => {
         shareButton.classList.add("dark-theme");
         shareButtonDark.classList.add("hidden");
         socialMedia.classList.remove("hidden");
+        triangle.classList.remove("hidden");
     }
     
 })

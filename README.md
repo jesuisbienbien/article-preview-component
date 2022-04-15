@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./Screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [View Codes](https://github.com/jesuisbienbien/article-preview-component)
+- Live Site URL: [View Live site](https://jesuisbienbien.github.io/article-preview-component/)
 
 ## My process
 
@@ -44,28 +44,26 @@ Users should be able to:
 - Mobile-first workflow
 - Vanilla Javascript
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.filter-white {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(
+      242deg
+    )
+    brightness(109%) contrast(101%);
 }
-```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+#triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 12px solid var(--very-dark-grayish-blue);
+  position: absolute;
+  bottom: 36%;
+  right: 28.5%;
+}
 ```
 
 ### Continued development
@@ -73,12 +71,11 @@ const proudOfThisFunc = () => {
 ### Useful resources
 
 - [Stack Over Flow](https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element) - changed the color of the arrow svg image.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Tricks](https://css-tricks.com/the-shapes-of-css/) - create shapes using CSS.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [Nguyen Nguyen](https://github.com/jesuisbienbien)
+- Frontend Mentor - [@jesuisbienbien](https://www.frontendmentor.io/profile/jesuisbienbien)
 
 ## Acknowledgments
