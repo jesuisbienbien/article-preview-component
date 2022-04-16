@@ -201,10 +201,8 @@ main {
 }
 
 @media only screen and (min-width: 1440px) {
-  body {
-    position: relative;
-  }
   main {
+    position: relative;
     max-width: -webkit-fit-content;
     max-width: -moz-fit-content;
     max-width: fit-content;
@@ -238,8 +236,8 @@ main {
   }
   .share-section {
     position: absolute;
-    bottom: 37.5%;
-    right: 20%;
+    bottom: 30%;
+    right: -10%;
     border-radius: 10px;
     padding: 1rem 3rem;
   }
@@ -250,8 +248,8 @@ main {
     border-right: 11px solid transparent;
     border-top: 12px solid var(--very-dark-grayish-blue);
     position: absolute;
-    bottom: 36%;
-    right: 28.5%;
+    bottom: 26%;
+    right: 8%;
   }
 }
 /*# sourceMappingURL=style.css.map */
